@@ -12,6 +12,22 @@ body{
     height: 100vh;
 }
 
+.title{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80%;
+    top: 15%;
+    z-index: 2;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(22, 22, 22);
+}
+
 .textContainer{
     text-align: center;
 }
@@ -23,7 +39,7 @@ body{
     margin-left: auto; 
     margin-right: auto; 
     width: 80%;
-    bottom: 10%;
+    bottom: 20%;
     z-index: 1;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.6);
